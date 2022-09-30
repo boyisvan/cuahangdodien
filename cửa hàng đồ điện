@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-30T06:04:58.253Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="-FbAGLIejh6g1LOyaU9Y" version="20.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-30T06:47:07.907Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="_QkgGO6cnBGW03IIQYoq" version="20.3.7" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2714" dy="1038" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2211" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -37,7 +37,7 @@
         <mxCell id="HFksWUpGxJ9UcKFCQWCW-18" value="dbo.danhmucnhap" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-180" y="336" width="160" height="174" as="geometry" />
         </mxCell>
-        <mxCell id="HFksWUpGxJ9UcKFCQWCW-19" value="(+)masanpham : nvarchar(50)&#xa;+tensanpham : nvarchar(50) &#xa;+soluongnhap : int&#xa;+giatiennhap: int ( first null ) &#xa;(= dbo.sanpham.gianhap *&#xa;danhmucnhap.soluongnhap)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="HFksWUpGxJ9UcKFCQWCW-18" vertex="1">
+        <mxCell id="HFksWUpGxJ9UcKFCQWCW-19" value="+ madonnhap ;nvchar(50)&#xa;(+)masanpham : nvarchar(50)&#xa;+tensanpham : nvarchar(50) &#xa;+soluongnhap : int&#xa;+giatiennhap: int ( first null ) &#xa;(= dbo.sanpham.gianhap *&#xa;danhmucnhap.soluongnhap)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="HFksWUpGxJ9UcKFCQWCW-18" vertex="1">
           <mxGeometry y="26" width="160" height="114" as="geometry" />
         </mxCell>
         <mxCell id="HFksWUpGxJ9UcKFCQWCW-20" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="HFksWUpGxJ9UcKFCQWCW-18" vertex="1">
@@ -220,6 +220,9 @@
         </mxCell>
         <mxCell id="fOwxeWeZfWqhvBEaFqIZ-10" value="- (+) là để biểu thị khóa chính và khóa phụ của class đó&amp;nbsp;&amp;nbsp;&lt;br&gt;&lt;br&gt;- các đường liên kết với nhau biểu thị rằng chúng có thể truy vấn thông qua khóa chính&lt;br&gt;&lt;br&gt;- các bảng tính tiền thu , tiền bán sẽ được dùng lệnh update tính sau khi đã có dữ liệu nhập vào từ các bảng&amp;nbsp;&lt;br&gt;&lt;br&gt;&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-730" y="240" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fOwxeWeZfWqhvBEaFqIZ-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="HFksWUpGxJ9UcKFCQWCW-62" target="HFksWUpGxJ9UcKFCQWCW-4">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
